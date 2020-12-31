@@ -26,8 +26,8 @@ module.exports = function (config) {
     colors: true,
     logLevel: config.LOG_INFO,
     autoWatch: true,
-    browsers: ['ChromeHeadless'],
-    singleRun: false,
+    browsers: ['PhantomJS'],
+    singleRun: true,
     restartOnFileChange: true
   });
 };
